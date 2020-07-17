@@ -21,3 +21,25 @@ This will generate `medline_fullsents_v7.txt`, which contains *just* the full se
 
 ## Train vector spaces
 
+You will need to download and install the [Semantic Vectors](https://github.com/semanticvectors/semanticvectors) package for this. 
+(You may need to also install Maven!)
+
+```
+git clone https://github.com/semanticvectors/semanticvectors.git
+cd semanticvectors
+mvn install -P endUserRelease
+```
+
+The following scripts train models with the parameters used for our paper. See the Semantic Vectors documentation if you'd like to change these.
+
+### Train a skip-gram model:
+
+```
+bash scripts/train/train_skipgram.sh
+```
+
+### Train Embedding of Structural Dependencies
+
+```
+bash scripts/train/train_esd.sh
+```
