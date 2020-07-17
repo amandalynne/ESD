@@ -61,5 +61,5 @@ from which to generate evaluation data sets for each knowledge base, consisting
 of pairs of terms for which there exists a vector in both trained vector spaces. 
 
 ```
-python scripts/data/create_eval_sets.py
+python scripts/data/create_eval_sets.py PATH_TO_KB_DUMPS
 ``` 
