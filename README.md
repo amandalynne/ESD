@@ -38,7 +38,7 @@ The following scripts train models with the parameters used for our paper. See t
 bash scripts/train/train_skipgram.sh
 ```
 
-### Train Embedding of Structural Dependencies
+### Train Embedding of Structural Dependencies:
 
 ```
 bash scripts/train/train_esd.sh
