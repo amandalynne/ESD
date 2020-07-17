@@ -43,3 +43,19 @@ bash scripts/train/train_skipgram.sh
 ```
 bash scripts/train/train_esd.sh
 ```
+
+
+## Evaluation
+
+For a Python interface to the trained vectors, we use the [Semvecpy](https://github.com/semanticvectors/semvecpy) package. 
+
+### Evaluation data
+
+Scripts for downloading and post-processing knowledge base data are forthcoming!
+For now, this script assumes you have a local copy of the knowledge base dumps 
+from which to generate evaluation data sets for each knowledge base, consisting 
+of pairs of terms for which there exists a vector in both trained vector spaces. 
+
+```
+python scripts/data/create_eval_sets.py
+``` 
