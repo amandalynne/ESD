@@ -1,7 +1,7 @@
 # Embedding of Structural Dependencies
 
 
-Find our trained vectors, trained using the [Semantic Vectors](https://github.com/semanticvectors/semanticvectors) package, on [Zenodo](https://zenodo.org/record/3832324). 
+Find our trained vectors, trained using the [Semantic Vectors](https://github.com/semanticvectors/semanticvectors) package, on [Zenodo](https://zenodo.org/record/3832324). To train the models yourself, follow these steps:
 
 ## Setup
 
