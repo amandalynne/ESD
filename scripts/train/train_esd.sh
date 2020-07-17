@@ -7,6 +7,9 @@ PATH_TO_JAR_FILE=~/semanticvectors/target/semanticvectors-5.9.jar
 # Corpus (concept-path-concept triples)
 PATH_TO_CORPUS=../../data/corpus/medline_triples_v7.txt
 
+# Remove if exists already
+rm -rf predication_index
+
 # Build predication_index
 java -cp $PATH_TO_JAR_FILE pitt.search.lucene.LuceneIndexFromSemrepTriples $PATH_TO_CORPUS 
 
