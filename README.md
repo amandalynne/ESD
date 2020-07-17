@@ -38,8 +38,12 @@ The following scripts train models with the parameters used for our paper. See t
 bash scripts/train/train_skipgram.sh
 ```
 
+This will produce .bin files in `vectors/skipgram`.
+
 ### Train Embedding of Structural Dependencies:
 
 ```
 bash scripts/train/train_esd.sh
 ```
+
+This will produce .bin files in `vectors/esd`.
