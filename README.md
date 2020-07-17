@@ -10,6 +10,7 @@ Run this script to download Version 7 of the [corpus](https://zenodo.org/record/
 ```
 scripts/setup/get_paths_v7.sh
 ```
+These will get saved to `data/paths/`.
 
 Next, run this script to produce corpus files with which to train vector space models:
 
@@ -17,7 +18,7 @@ Next, run this script to produce corpus files with which to train vector space m
 scripts/setup/create_corpus_files.py
 ```
 
-This will generate `medline_fullsents_v7.txt`, which contains *just* the full sentences from the corpus (for training, e.g., a skip-gram model), and `medline_triples_v7.txt`, which contains concept-path-concept triples and other metadata (for training ESD). 
+This will generate `data/corpus/medline_fullsents_v7.txt`, which contains *just* the full sentences from the corpus (for training, e.g., a skip-gram model), and `data/corpus/medline_triples_v7.txt`, which contains concept-path-concept triples and other metadata (for training ESD). 
 
 ## Train vector spaces
 
