@@ -1,6 +1,8 @@
 # Embedding of Structural Dependencies
 
 
+This repository contains code associated with "Improving Biomedical Analogical Retrieval with Embedding of Structural Dependencies" (Paullada, Percha & Cohen,  BioNLP 2020).
+
 Find our trained vectors, trained using the [Semantic Vectors](https://github.com/semanticvectors/semanticvectors) package, on [Zenodo](https://zenodo.org/record/3832324). To train the models yourself, follow these steps:
 
 ## Setup
