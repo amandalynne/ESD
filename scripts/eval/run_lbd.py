@@ -196,6 +196,7 @@ def proc_file(f, num_cues, today, reverse):
     f: file path
     num_cues: int, number of random cues
     today: str, today's date for logging output
+    reverse: if True, construct analogy with reversed pairs (D:C::B:A)
 
     for target pairs (C, D), use <num_cues> (A, B) cues for analogy
     """
